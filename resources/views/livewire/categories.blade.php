@@ -31,7 +31,7 @@
                                 <tr>
                                     <td>Any Name</td>
                                     <td class="text-muted">
-                                        4
+
                                     </td>
                                     <td>
                                         <div class="btn-group">

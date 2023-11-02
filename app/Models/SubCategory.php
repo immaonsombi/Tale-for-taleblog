@@ -15,4 +15,14 @@ class SubCategory extends Model
         'parent_category',
         'ordering',
     ];
+
+
+    public function parentcategory()
+    {
+        return $this->belongsTo(Category::class, 'parent_category', 'id');
+    }
+    public function posts()
+    {
+        return $this->hasMany(Post::class, 'category_id', 'id');
+    }
 }

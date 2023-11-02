@@ -3,6 +3,5 @@
 @section('content')
 
 
-<p>the page title</p>
 
-@endsectionccc
+@endsection
